@@ -1,0 +1,448 @@
+{
+	"id": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+	"name": "parking_lot",
+	"description": "",
+	"order": [
+		"56a812ad-1bbd-e7fd-ce0c-53371960e47c",
+		"a52c12c8-b7d9-730a-2397-3b4a9762e539",
+		"61e4e3d1-91cf-c2de-9080-a7bde167219f",
+		"43a376c0-7111-092d-1041-b7c60e49148c",
+		"03fb0cbc-b633-eeca-5728-77c80778f48d",
+		"6c5ac82d-24ef-4670-b661-e08c300a6f6f",
+		"5c6b8bc4-36fc-9743-3306-728883685902",
+		"afabe15b-e08b-376a-8837-6952239fa43d",
+		"34dde150-3796-03ab-6e1e-3a49a667f51c",
+		"1a3a3192-6c1c-6edd-b478-374394e84388",
+		"16234f4e-f229-2f72-9453-e8431529b9e1",
+		"0105b52f-0829-124b-7fb7-beda9a6fba57"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1600027233488,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0105b52f-0829-124b-7fb7-beda9a6fba57",
+			"headers": "accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJyb25ha3BAZ21haWwuY29tIiwidXNlclR5cGUiOiJjdXN0b21lciIsImlzRGlzYWJsZWQiOmZhbHNlLCJpYXQiOjE2MDAyODU4MTAsImV4cCI6MTYwMDI4NjcxMH0.NNrchJc_1apT4t3iAz-T75laqJnZVTw0Hu9BZC26lMM\n",
+			"headerData": [
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJyb25ha3BAZ21haWwuY29tIiwidXNlclR5cGUiOiJjdXN0b21lciIsImlzRGlzYWJsZWQiOmZhbHNlLCJpYXQiOjE2MDAyODU4MTAsImV4cCI6MTYwMDI4NjcxMH0.NNrchJc_1apT4t3iAz-T75laqJnZVTw0Hu9BZC26lMM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/parkingLot/getListOfCarsParked?parkingLotID=69b8967a-a1a4-4675-8c49-395fd8e5a6ec",
+			"queryParams": [
+				{
+					"key": "parkingLotID",
+					"value": "69b8967a-a1a4-4675-8c49-395fd8e5a6ec",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285827430,
+			"name": "getListOfCarsParked",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": []
+		},
+		{
+			"id": "03fb0cbc-b633-eeca-5728-77c80778f48d",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/parkingLot/getCarNosWithSameColor?parkingLotID=dafd3087-67a4-472a-90de-bf7b928e54be&color=white",
+			"queryParams": [
+				{
+					"key": "parkingLotID",
+					"value": "dafd3087-67a4-472a-90de-bf7b928e54be",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "color",
+					"value": "white",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600199079176,
+			"name": "getCarsWithSameColor",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": []
+		},
+		{
+			"id": "16234f4e-f229-2f72-9453-e8431529b9e1",
+			"headers": "Content-Type: application/json\naccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVHlwZSI6ImFkbWluIiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDIzNzgyM30.Df1AcUCzp5AW_j-COIPPrSggN4JwN4CbmIPFoZrteCE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVHlwZSI6ImFkbWluIiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDIzNzgyM30.Df1AcUCzp5AW_j-COIPPrSggN4JwN4CbmIPFoZrteCE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/auth/disableAdminUser",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285828250,
+			"name": "disableAdminUser",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": [],
+			"rawModeData": "{\n\t\"userEmail\":\"jerin@gmail.com\"\n}"
+		},
+		{
+			"id": "1a3a3192-6c1c-6edd-b478-374394e84388",
+			"headers": "Content-Type: application/json\naccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ0b255bWF0aGV3MTdAZ21haWwuY29tIiwidXNlclR5cGUiOiJyb290IiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDI4MzIwMSwiZXhwIjoxNjAwMjg0MTAxfQ.3rDU6kdZ9dnN2A4yY1fpuuVq8nKR3_QURLQ-gLCrhuY\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ0b255bWF0aGV3MTdAZ21haWwuY29tIiwidXNlclR5cGUiOiJyb290IiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDI4MzIwMSwiZXhwIjoxNjAwMjg0MTAxfQ.3rDU6kdZ9dnN2A4yY1fpuuVq8nKR3_QURLQ-gLCrhuY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/parkingLot/updateParkingLot",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285828962,
+			"name": "updateParkingLot",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": [],
+			"rawModeData": "{\n\t\"parkingLotID\":\"2c087f51-2bbf-4e94-8209-53f11f193e7a\",\n\t\"increaseBy\":12\n}"
+		},
+		{
+			"id": "34dde150-3796-03ab-6e1e-3a49a667f51c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/auth/login",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600288170828,
+			"name": "login",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": [],
+			"rawModeData": "{\n\t\"userEmail\":\"tonymathew17@gmail.com\",\n\t\"password\":\"password\"\n}"
+		},
+		{
+			"id": "43a376c0-7111-092d-1041-b7c60e49148c",
+			"headers": "accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ0b255bWF0aGV3MTdAZ21haWwuY29tIiwidXNlclR5cGUiOiJyb290IiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDI4MzIwMSwiZXhwIjoxNjAwMjg0MTAxfQ.3rDU6kdZ9dnN2A4yY1fpuuVq8nKR3_QURLQ-gLCrhuY\n",
+			"headerData": [
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ0b255bWF0aGV3MTdAZ21haWwuY29tIiwidXNlclR5cGUiOiJyb290IiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDI4MzIwMSwiZXhwIjoxNjAwMjg0MTAxfQ.3rDU6kdZ9dnN2A4yY1fpuuVq8nKR3_QURLQ-gLCrhuY",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/parkingLot/getParkingStatus?parkingLotID=58ff441e-0bc4-4fc6-a9cc-661b0e05eb07",
+			"queryParams": [
+				{
+					"key": "parkingLotID",
+					"value": "58ff441e-0bc4-4fc6-a9cc-661b0e05eb07",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285831722,
+			"name": "getParkingStatus",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": []
+		},
+		{
+			"id": "56a812ad-1bbd-e7fd-ce0c-53371960e47c",
+			"headers": "Content-Type: application/json\naccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ0b255bWF0aGV3MTdAZ21haWwuY29tIiwidXNlclR5cGUiOiJyb290IiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDI4NzI4NCwiZXhwIjoxNjAwMjg4MTg0fQ.DvB4IGiDS3G7glzCFUT5dnjEdbGZ2ljS7ikDeukqaNw\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJ0b255bWF0aGV3MTdAZ21haWwuY29tIiwidXNlclR5cGUiOiJyb290IiwiaXNEaXNhYmxlZCI6ZmFsc2UsImlhdCI6MTYwMDI4NzI4NCwiZXhwIjoxNjAwMjg4MTg0fQ.DvB4IGiDS3G7glzCFUT5dnjEdbGZ2ljS7ikDeukqaNw",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/parkingLot/createParkingLot",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600288172834,
+			"name": "createParkingLot",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": [],
+			"rawModeData": "{\n\t\"totalSlots\":10\n}"
+		},
+		{
+			"id": "5c6b8bc4-36fc-9743-3306-728883685902",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/parkingLot/getSlotByCarNumber?parkingLotID=dafd3087-67a4-472a-90de-bf7b928e54be&carNo=2",
+			"queryParams": [
+				{
+					"key": "parkingLotID",
+					"value": "dafd3087-67a4-472a-90de-bf7b928e54be",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "carNo",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600199123159,
+			"name": "getSlotByCarNumber",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": []
+		},
+		{
+			"id": "61e4e3d1-91cf-c2de-9080-a7bde167219f",
+			"headers": "accessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNjAwMjA3MTIxfQ.TxPObcpK2KKPdGCSGz-6Wp3X5b15UGSmcJLjB0QqDxM\n",
+			"headerData": [
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyVHlwZSI6ImN1c3RvbWVyIiwiaWF0IjoxNjAwMjA3MTIxfQ.TxPObcpK2KKPdGCSGz-6Wp3X5b15UGSmcJLjB0QqDxM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/parkingLot/leaveCar?parkingLotID=26042122-5925-4873-9663-9684a8a22fc5&carID=d0964f02-b832-4023-a73f-2d69767c549c",
+			"queryParams": [
+				{
+					"key": "parkingLotID",
+					"value": "26042122-5925-4873-9663-9684a8a22fc5",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "carID",
+					"value": "d0964f02-b832-4023-a73f-2d69767c549c",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285832611,
+			"name": "leaveCar",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": []
+		},
+		{
+			"id": "6c5ac82d-24ef-4670-b661-e08c300a6f6f",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:3000/parkingLot/getSlotsWithSameColorCar?parkingLotID=dafd3087-67a4-472a-90de-bf7b928e54be&color=white",
+			"queryParams": [
+				{
+					"key": "parkingLotID",
+					"value": "dafd3087-67a4-472a-90de-bf7b928e54be",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "color",
+					"value": "white",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600199078128,
+			"name": "getSlotsWithSameColorCar",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": []
+		},
+		{
+			"id": "a52c12c8-b7d9-730a-2397-3b4a9762e539",
+			"headers": "Content-Type: application/json\naccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJyb25ha3BAZ21haWwuY29tIiwidXNlclR5cGUiOiJjdXN0b21lciIsImlzRGlzYWJsZWQiOmZhbHNlLCJpYXQiOjE2MDAyODU1ODEsImV4cCI6MTYwMDI4NjQ4MX0.FQQZdx758_N20XNJTHXuovmHkTRfow06w8IuAz0lsnI\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "accessToken",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyRW1haWwiOiJyb25ha3BAZ21haWwuY29tIiwidXNlclR5cGUiOiJjdXN0b21lciIsImlzRGlzYWJsZWQiOmZhbHNlLCJpYXQiOjE2MDAyODU1ODEsImV4cCI6MTYwMDI4NjQ4MX0.FQQZdx758_N20XNJTHXuovmHkTRfow06w8IuAz0lsnI",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/parkingLot/parkCar",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285833306,
+			"name": "parkCar",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": [],
+			"rawModeData": "{\n\t\"carData\":{\n\t\t\"carNo\":\"dfd32654\",\n\t\t\"color\":\"blue\",\n\t\t\"manufacturer\":\"Suzuki\",\n\t\t\"model\":\"Vista\"\n\t},\n\t\t\"parkingLotID\":\"69b8967a-a1a4-4675-8c49-395fd8e5a6ec\"\n\n}"
+		},
+		{
+			"id": "afabe15b-e08b-376a-8837-6952239fa43d",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/auth/register",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1600285830626,
+			"name": "register",
+			"description": "",
+			"collectionId": "7ccd9858-f5dd-e424-5fa7-281c9aa69c3b",
+			"responses": [],
+			"rawModeData": "{\"userName\":\"Ronak P\",\n\t\"userEmail\":\"ronakp@gmail.com\",\n\t\"password\":\"password\",\n\t\"userType\":\"customer\",\n\t\"isDisabled\":false\n}"
+		}
+	]
+}

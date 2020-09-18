@@ -1,0 +1,28 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nyc mocha ./tests/routes",
+    "start": "node server.js"
+  },
+  "author": "Tony Mathew",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.5",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3",
+    "supertest": "^4.0.2"
+  }
+}
